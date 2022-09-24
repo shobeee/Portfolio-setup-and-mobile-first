@@ -5,12 +5,9 @@ section {
   background-repeat: no-repeat;
 }
 
-
 .head {
-  
   display: flex;
   justify-content: space-between;
-  
 }
 
 .paragraph {
@@ -18,11 +15,9 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  
 }
 
 .h1 {
-
   width: 327px;
   height: 150px;
 
@@ -38,14 +33,12 @@ section {
 
   display: flex;
 
-
   /* Neutrals/N800 */
 
   color: #172b4d;
 }
 
 .detail {
- 
   width: 327px;
   height: 146px;
 
@@ -59,11 +52,9 @@ section {
 
   /* or 150% */
 
-
   /* Neutrals/N600 */
 
   color: #344563;
-
 
   /* Inside auto layout */
 
@@ -86,7 +77,6 @@ section {
 
   /* identical to box height, or 150% */
 
-
   /* Primary/B300 */
 
   color: #7f8cff;
@@ -95,13 +85,14 @@ section {
 .Connect {
   margin-left: 15px;
 }
+
 .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content:baseline;
-    list-style: none;
-}
-.socialmedia {
-    margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  list-style: none;
 }
 
+.socialmedia {
+  margin-left: 15px;
+}
