@@ -119,6 +119,11 @@ body {
   border-radius: 0.5rem;
 }
 
+.btn:hover, .btn-1:hover{
+  background: #396df2;
+  color: #fff;
+}
+
 .about {
   margin-top: 5rem;
   border-top-right-radius: 6.5rem;
