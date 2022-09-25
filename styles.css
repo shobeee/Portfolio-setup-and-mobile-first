@@ -119,7 +119,7 @@ body {
   border-radius: 0.5rem;
 }
 
-.btn:hover, .btn-1:hover{
+.btn:hover {
   background: #396df2;
   color: #fff;
 }
@@ -183,6 +183,11 @@ body {
   border: 1px solid #dfe1e6;
   border-radius: 0.5rem;
   margin-left: 2rem;
+}
+
+.btn-1:hover {
+  background: #396df2;
+  color: #fff;
 }
 
 .box .title {
