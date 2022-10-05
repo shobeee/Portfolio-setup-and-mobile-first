@@ -1,7 +1,13 @@
 @font-face {
   font-family: Poppins, sans-serif;
   font-style: normal;
-  src: url('https://fonts.googleapis.com/css?family=Poppins:400,500,700,900');
+  src: url('images/Poppins.zip');
+}
+
+.navbar {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }
 
 * {
@@ -60,6 +66,7 @@ body {
   font-size: 1.3rem;
   line-height: 26px;
   color: #344563;
+  margin-top: 10px;
 }
 
 .holder {
@@ -103,6 +110,7 @@ body {
 .project h2 {
   font-size: 2rem;
   font-weight: bolder;
+  margin-top: 10px;
 }
 
 .languages {
@@ -111,7 +119,7 @@ body {
 }
 
 .languages p {
-  margin: 10px;
+  margin: 10px 10px 10px 5px;
 }
 
 .text {
@@ -135,7 +143,7 @@ body {
 
 .info a {
   border-radius: 0.5rem;
-  background: lightgray;
+  background: #ebebff;
   color: #7e8bfc;
   padding: 8px;
 }
@@ -309,20 +317,20 @@ body {
 
 .about-me {
   position: absolute;
-  width: 375px;
+  width: 393px;
   height: 779px;
   left: 0;
-  top: 4200px;
-  background: #6070ff;
+  top: 4500px;
+  background-color: #6070ff;
   border-radius: 6rem 0 0 0;
 }
 
 .cont {
   position: absolute;
   height: 56px;
-  left: 4rem;
-  top: 8rem;
-  color: white;
+  left: 20%;
+  top: 103px;
+  color: #ebebff;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
@@ -333,13 +341,16 @@ body {
   position: absolute;
   width: 327px;
   height: 102px;
-  left: 5px;
-  top: 12rem;
+  left: 24px;
+  top: 171px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+
+  /* or 140% */
+
   text-align: center;
 
   /* Primary/B50 */
@@ -357,39 +368,51 @@ body {
 
 .input {
   position: absolute;
-  width: 250px;
+  width: 325px;
   border-radius: 8px;
   height: 50px;
-  left: 2rem;
+  left: 24px;
+  right: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+  margin-top: 0;
 }
 
 .email {
   top: 4.5rem;
   position: absolute;
-  width: 250px;
+  width: 325px;
   border-radius: 8px;
   height: 50px;
-  left: 2rem;
+  left: 24px;
+  right: 24px;
   border: none;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+  margin-top: 10px;
+
+  /* or 118% */
+
   display: flex;
   align-items: center;
 }
 
 #message {
+  height: 170px;
+  width: 327px;
   position: absolute;
   top: 11em;
-  left: 2rem;
+  left: 24px;
+  right: 24px;
   border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  margin-top: 20px;
 }
 
 .submit {
@@ -404,42 +427,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   border: 1px solid #7f8cff;
-}
-
-.img1 {
-  position: absolute;
-  right: 0;
-  top: 5rem;
-}
-
-.img2 {
-  position: absolute;
-  top: 3.5rem;
-  right: 0;
-}
-
-.img3 {
-  position: absolute;
-  right: 60%;
-  top: 10%;
-}
-
-.img4 {
-  position: absolute;
-  right: 35%;
-  top: 88%;
-}
-
-.img5 {
-  position: absolute;
-  right: 25%;
-  top: 84%;
-}
-
-.img6 {
-  position: absolute;
-  top: 98%;
-  right: 40%;
+  margin-top: 20px;
 }
 
 .outside-img {
@@ -457,4 +445,24 @@ body {
   background-color: #6070ff;
   color: white;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.formshapes {
+  background-image: url(images/contact-me-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.demo {
+  width: 350px;
+  align-items: center;
+}
+
+#btm-lne {
+  position: absolute;
+  top: 415px;
+  left: 120px;
 }
